@@ -6,7 +6,7 @@ const skills = [
   { name: "React", status: "done" },
   { name: "REST APIs", status: "active" },
   { name: "Node.js / Express", status: "upcoming" },
-  { name: "MongoDB", status: "upcoming" },
+  { name: "MongoDB", status: "active" },
   { name: "Git", status: "done" },
 ];
 

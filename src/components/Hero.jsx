@@ -3,12 +3,12 @@ import { useEffect, useRef } from "react";
 // Lines the terminal types out, in order.
 // prompt: shown before the text (e.g. "$ "), dim: styled muted, cursor: shows blinking cursor instead of text
 const TERMINAL_LINES = [
-  { prompt: "$ ", text: "whoami" },
-  { prompt: "", text: "susee — full-stack developer in training", dim: true },
-  { prompt: "$ ", text: "cat current_focus.txt" },
+  { prompt: "$ ", text: "who am i" },
+  { prompt: "", text: "suseedhar — full-stack developer in training", dim: true },
+  { prompt: "$ ", text: "" },
   {
     prompt: "",
-    text: "Learning APIs · building SATS · shipping daily",
+    text: "building SATS · testing codes . shipping daily .  ",
     dim: true,
   },
   { prompt: "$ ", text: "_", cursor: true },
@@ -65,10 +65,10 @@ function Hero() {
 
   return (
     <section className="hero">
-      <div className="eyebrow">Currently building · APIs</div>
+      <div className="eyebrow">Currently testing codes</div>
 
       <h1>
-        Susee builds <span className="grad">full-stack</span>
+        Suseendhar builds <span className="grad">full-stack</span>
         <br />
         things that actually ship.
       </h1>
@@ -84,7 +84,7 @@ function Hero() {
           <div className="dot r"></div>
           <div className="dot y"></div>
           <div className="dot g"></div>
-          <div className="term-title">susee@dev — zsh</div>
+          <div className="term-title">suseendhar@dev</div>
         </div>
         <div className="term-body" ref={termRef}></div>
       </div>

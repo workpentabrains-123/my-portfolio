@@ -2,7 +2,7 @@ import skills from "../data/skills";
 
 const STATUS_LABEL = {
   done: "Done",
-  active: "In progress",
+  active: "done",
   upcoming: "Next up",
 };
 
@@ -10,7 +10,7 @@ function Skills() {
   return (
     <section id="skills">
       <div className="sec-head reveal">
-        <div className="sec-eyebrow">// Toolkit</div>
+        <div className="sec-eyebrow">Toolkit</div>
         <h2>What's actually in use</h2>
         <p className="sec-desc">
           Tracked honestly — done means built with it, not just read about

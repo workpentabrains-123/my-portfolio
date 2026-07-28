@@ -13,13 +13,13 @@ const projects = [
       "A responsive React portfolio showcasing skills, projects, and the learning journey through the full stack — the site you're looking at now.",
     repos: ["portfolio"],
   },
-  {
-    title: "API Testing Practice",
-    tag: "Postman",
-    description:
-      "Practiced REST APIs using Postman, covering GET, POST, PUT, PATCH, and DELETE requests against real endpoints.",
-    repos: ["Postman collections"],
-  },
+  // {
+  //   title: "API Testing Practice",
+  //   tag: "Postman",
+  //   description:
+  //     "Practiced REST APIs using Postman, covering GET, POST, PUT, PATCH, and DELETE requests against real endpoints.",
+  //   repos: ["Postman collections"],
+  // },
 ];
 
 export default projects;

@@ -4,7 +4,7 @@ function Projects() {
   return (
     <section id="projects">
       <div className="sec-head reveal">
-        <div className="sec-eyebrow">// Active work</div>
+        <div className="sec-eyebrow">Active work</div>
         <h2>Projects</h2>
         <p className="sec-desc">
           Real repos, real requests — the exact stack I'm learning, applied

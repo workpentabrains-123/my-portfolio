@@ -1,9 +1,14 @@
+import logo from "../assets/logo.png";
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        susee<span>.dev</span>
-      </div>
+  <img src={logo} alt="Susee Logo" className="logo-img" />
+  <span>
+    susee<span>.dev</span>
+  </span>
+</div>
+      
 
       <ul>
         <li>

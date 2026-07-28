@@ -509,32 +509,24 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
-/* ---------- Mobile Responsive ---------- */
 @media (max-width: 768px) {
 
-  /* Hide banner on mobile */
-  .banner {
-    display: none;
+  .banner img {
+    width: 100%;
+    height: 180px;          /* Adjust between 180–240px */
+    object-fit: cover;
+    object-position: center top;
   }
 
-  /* Make navbar smaller */
+  .banner-fade {
+    height: 80px;
+  }
+
+  .hero {
+    padding-top: 30px;
+  }
+
   .navbar {
     padding: 12px 6%;
-  }
-
-  /* Reduce logo size */
-  .logo {
-    font-size: 1.4rem;
-  }
-
-  /* Remove extra space at top */
-  .hero {
-    padding-top: 20px;
-    min-height: auto;
-  }
-
-  /* Reduce section spacing */
-  section {
-    padding: 35px 6%;
   }
 }

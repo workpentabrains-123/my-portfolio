@@ -10,10 +10,10 @@
 }
 .banner img {
   width: 100%;
-  height: auto;
   display: block;
-  max-height: 62vh;
+  height: 40vh;
   object-fit: cover;
+  object-position: center;
 }
 .banner-fade {
   position: absolute;

@@ -21,7 +21,7 @@ function Contact() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/suseendhar-t"
+            href="https://www.linkedin.com/in/suseendhar-t-a1261b283/"
             target="_blank"
             rel="noreferrer"
             className="btn btn-ghost"

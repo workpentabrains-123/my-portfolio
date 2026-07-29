@@ -13,7 +13,12 @@ function Projects() {
       </div>
 
       {projects.map((project, index) => (
-        <div key={index} className="project-card reveal">
+        <div
+  key={index}
+  className="project-card reveal"
+  onClick={() => window.open(project.link, "_blank")}
+  style={{ cursor: "pointer" }}
+>
           <div className="project-top">
             <div className="project-title">
   <a

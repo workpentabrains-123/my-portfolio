@@ -4,9 +4,9 @@ const skills = [
   { name: "CSS", status: "done" },
   { name: "JavaScript", status: "done" },
   { name: "React", status: "done" },
-  { name: "REST APIs", status: "active" },
+  { name: "REST APIs", status: "done" },
   { name: "Node.js / Express", status: "upcoming" },
-  { name: "MongoDB", status: "active" },
+  { name: "MongoDB", status: "done" },
   { name: "Git", status: "done" },
 ];
 

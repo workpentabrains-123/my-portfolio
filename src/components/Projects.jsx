@@ -15,7 +15,16 @@ function Projects() {
       {projects.map((project, index) => (
         <div key={index} className="project-card reveal">
           <div className="project-top">
-            <div className="project-title">{project.title}</div>
+            <div className="project-title">
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ textDecoration: "none", color: "inherit" }}
+  >
+    {project.title}
+  </a>
+</div>
             <div className="project-tag">{project.tag}</div>
           </div>
 

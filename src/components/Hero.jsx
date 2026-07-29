@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 const TERMINAL_LINES = [
   { prompt: "$ ", text: "who am i" },
   { prompt: "", text: "suseedhar — full-stack developer in training", dim: true },
-  { prompt: "$ ", text: "" },
+  { prompt: "$ ", text: "what i'm doing" },
   {
     prompt: "",
     text: "building SATS · testing codes . shipping daily .  ",

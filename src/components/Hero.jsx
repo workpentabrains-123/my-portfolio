@@ -81,9 +81,9 @@ function Hero() {
 
       <div className="terminal">
         <div className="term-bar">
-          <div className="dot r"></div>
+          {/* <div className="dot r"></div>
           <div className="dot y"></div>
-          <div className="dot g"></div>
+          <div className="dot g"></div> */}
           {/* <div className="term-title">suseendhar@dev</div> */}
         </div>
         <div className="term-body" ref={termRef}></div>

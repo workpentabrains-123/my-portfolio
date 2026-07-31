@@ -3,15 +3,15 @@ import { useEffect, useRef } from "react";
 // Lines the terminal types out, in order.
 // prompt: shown before the text (e.g. "$ "), dim: styled muted, cursor: shows blinking cursor instead of text
 const TERMINAL_LINES = [
-  { prompt: "$ ", text: "who am i" },
-  { prompt: "", text: "suseedhar — full-stack developer in training", dim: true },
-  { prompt: "$ ", text: "what i'm doing" },
+  { prompt: "", text: "who am i" },
+  { prompt: "", text: "suseendhar — full-stack developer in training", dim: true },
+  { prompt: "", text: "what i'm doing" },
   {
     prompt: "",
     text: "building SATS · testing codes . shipping daily .  ",
     dim: true,
   },
-  { prompt: "$ ", text: "_", cursor: true },
+  // { prompt: "", text: "_", cursor: true },
 ];
 
 function Hero() {
@@ -46,13 +46,13 @@ function Hero() {
         if (line.dim) div.style.color = "var(--muted)";
         container.appendChild(div);
 
-        if (line.cursor) {
-          div.style.opacity = 1;
-          const span = document.createElement("span");
-          span.className = "cursor";
-          div.appendChild(span);
-          break;
-        }
+        // if (line.cursor) {
+        //   div.style.opacity = 1;
+        //   const span = document.createElement("span");
+        //   span.className = "cursor";
+        //   div.appendChild(span);
+        //   break;
+        // }
 
         const full = line.prompt + line.text;
         await new Promise((r) => setTimeout(r, 150));
@@ -84,7 +84,7 @@ function Hero() {
           <div className="dot r"></div>
           <div className="dot y"></div>
           <div className="dot g"></div>
-          <div className="term-title">suseendhar@dev</div>
+          {/* <div className="term-title">suseendhar@dev</div> */}
         </div>
         <div className="term-body" ref={termRef}></div>
       </div>

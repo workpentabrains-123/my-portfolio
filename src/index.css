@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --bg: #0a0e1a;
   --bg-2: #0f1526;
   --panel: #111a2e;
@@ -10,6 +10,49 @@
   --mono: "IBM Plex Mono",pacifico ;
   --disp: "Sora", pacifico ;
   --body: "Manrope", pacifico ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--body);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+::selection {
+  background: var(--cyan);
+  color: #000;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+} */
+:root {
+  --bg: #0a0e1a;
+  --bg-2: #0f1526;
+  --panel: #111a2e;
+  --panel-border: #1e2b47;
+  --cyan: #00f0ff;
+  --violet: #7b61ff;
+  --text: #e8ecf4;
+  --muted: #5a6785;
+  --mono: "Pacifico", cursive;
+  --disp: "Pacifico", cursive;
+  --body: "Pacifico", cursive;
 }
 
 * {

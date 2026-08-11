@@ -50,9 +50,9 @@ body {
   --violet: #7b61ff;
   --text: #e8ecf4;
   --muted: #5a6785;
-  --mono: "Pacifico", cursive;
-  --disp: "Pacifico", cursive;
-  --body: "Pacifico", cursive;
+  --mono: "Pacifico",
+  --disp: "Pacifico",
+  --body: "Pacifico", 
 }
 
 * {

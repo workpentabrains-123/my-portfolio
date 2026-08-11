@@ -1,12 +1,12 @@
 // status: "done" | "active" | "upcoming"
 const skills = [
-  { name: "HTML", status: "done" },
-  { name: "CSS", status: "done" },
-  { name: "JavaScript", status: "done" },
-  { name: "React", status: "done" },
-  { name: "REST APIs", status: "done" },
-  { name: "MongoDB", status: "done" },
-  { name: "Git", status: "done" },
+  { name: "HTML", status: "Done" },
+  { name: "CSS", status: "Done" },
+  { name: "JavaScript", status: "Done" },
+  { name: "React", status: "Done" },
+  { name: "REST APIs", status: "Done" },
+  { name: "MongoDB", status: "Done" },
+  { name: "Git", status: "Done" },
   { name: "Node.js / Express", status: "Done" },
 ];
 

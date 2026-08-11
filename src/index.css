@@ -7,9 +7,9 @@
   --violet: #7b61ff;
   --text: #e8ecf4;
   --muted: #5a6785;
-  --mono: "IBM Plex Mono", monospace;
-  --disp: "Sora", sans-serif;
-  --body: "Manrope", sans-serif;
+  --mono: "IBM Plex Mono", courier New;
+  --disp: "Sora", courier New;
+  --body: "Manrope", courier New;
 }
 
 * {

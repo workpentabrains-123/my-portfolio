@@ -25,9 +25,11 @@ function Projects() {
           style={{ cursor: project.link ? "pointer" : "default" }}
         >
           <div className="project-top">
-            <div className="project-title">
+            {/* <div className="project-title">
               {project.title}
-            </div>
+            </div> */<div className={`project-title ${project.link ? "project-title--link" : ""}`}>
+  {project.title}
+</div>}
 
             <div className="project-tag">{project.tag}</div>
           </div>

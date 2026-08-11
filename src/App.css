@@ -425,6 +425,23 @@ h2 {
   font-size: 1.5rem;
   font-weight: 600;
 }
+.project-title {
+  font-family: var(--disp);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.project-title--link {
+  display: inline-block;
+  padding: 6px 20px;
+  border: 1.5px solid var(--text);
+  border-radius: 999px;
+  transition: background 0.2s ease, transform 0.15s ease, border-color 0.2s ease;
+}
+.project-title--link:hover {
+  background: rgba(0, 240, 255, 0.08);
+  border-color: var(--cyan);
+  transform: translateY(-1px);
+}
 .project-tag {
   font-family: var(--mono);
   font-size: 0.7rem;
@@ -541,7 +558,7 @@ footer {
   height: 36px;
   object-fit: contain;
 }
-.sats-button {
+/* .sats-button {
   background: transparent;
   border: 2px solid #000;
   border-radius: 50%;
@@ -557,4 +574,4 @@ footer {
   background: #fff;
   color: #000;
   transform: scale(1.05);
-}
+} */

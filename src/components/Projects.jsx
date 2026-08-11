@@ -16,36 +16,26 @@ function Projects() {
         <div
           key={index}
           className="project-card reveal"
-         onClick={() => {
-  console.log(project.link);
-  if (project.link) {
-    window.open(project.link, "_blank");
-  }
-}}
+          onClick={() => {
+            if (project.link) {
+              window.open(project.link, "_blank");
+            }
+          }}
           style={{ cursor: project.link ? "pointer" : "default" }}
         >
           <div className="project-top">
-            {/* <div className="project-title">
+            <div className={`project-title ${project.link ? "project-title--link" : ""}`}>
               {project.title}
-            </div> */<div className={`project-title ${project.link ? "project-title--link" : ""}`}>
-  {project.title}
-</div>}
+            </div>
 
             <div className="project-tag">{project.tag}</div>
           </div>
 
           <p className="project-desc">{project.description}</p>
-
-          <div className="repo-row">
-            {project.repos.map((repo, i) => (
-              <div key={i} className="repo-chip">
-                {repo}
-              </div>
-            ))}
-          </div>
         </div>
       ))}
     </section>
   );
 }
 
+export default Projects;

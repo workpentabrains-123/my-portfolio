@@ -13,7 +13,7 @@ const projects = [
     description:
       "A responsive React portfolio showcasing skills, projects, and the learning journey through the full stack — the site you're looking at now.",
     repos: ["portfolio"],
-     link:"https://my-portfolio-ly8n.vercel.app/",
+    //  link:"https://my-portfolio-ly8n.vercel.app/",
   },
   // {
   //   title: "API Testing Practice",

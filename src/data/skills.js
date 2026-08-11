@@ -7,7 +7,7 @@ const skills = [
   { name: "REST APIs", status: "done" },
   { name: "MongoDB", status: "done" },
   { name: "Git", status: "done" },
-  { name: "Node.js / Express", status: "upcoming" },
+  { name: "Node.js / Express", status: "done" },
 ];
 
 export default skills;

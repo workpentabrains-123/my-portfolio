@@ -1,6 +1,6 @@
 const projects = [
   {
-    title: "SATS Admin Portal",
+    title: "SATS",
     tag: "React · REST API",
     description:
       "Developed and maintained the SATS Admin Portal using React, REST APIs, and MongoDB — the admin-facing layer of a three-repo system.",

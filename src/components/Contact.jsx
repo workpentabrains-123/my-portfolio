@@ -9,7 +9,7 @@ function Contact() {
         </p>
 
         <div className="contact-links">
-          <a href="mailto:tsuseendhar@gmail.com" className="btn btn-ghost">
+          <a href="mail to:tsuseendhar@gmail.com" className="btn btn-ghost">
             Email me
           </a>
           <a
